@@ -1,0 +1,21 @@
+{
+  "name": "cf-workers-clipboard",
+  "version": "1.0.0",
+  "description": "多端剪切板同步应用",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "wrangler dev",
+    "publish": "wrangler publish",
+    "format": "prettier --write '**/*.{js,css,json,md}'"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "^2.8.8",
+    "wrangler": "^3.0.0"
+  },
+  "dependencies": {
+    "itty-router": "^4.0.13",
+    "crypto-js": "^4.1.1"
+  }
+} 

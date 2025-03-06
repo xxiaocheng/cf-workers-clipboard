@@ -1,0 +1,17 @@
+name = "cf-workers-clipboard"
+main = "index.js"
+compatibility_date = "2023-05-18"
+
+# KV命名空间配置
+kv_namespaces = [
+  { binding = "CLIPBOARD_DATA", id = "替换为您的KV命名空间ID" }
+]
+
+[site]
+bucket = "./public"
+
+[build]
+command = ""
+
+[miniflare]
+kv_persist = true 
